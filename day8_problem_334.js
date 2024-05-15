@@ -8,7 +8,7 @@ var increasingTriplet = function(nums) {
     
     for (let num of nums) {
         if (num <= min) {
-            // Update min if num is smaller than or equal to min
+            // update min if num is smaller than or equal to min
             min = num;
         } else if (num <= mid) {
             // Update mid if num is smaller than or equal to mid
