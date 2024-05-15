@@ -15,4 +15,5 @@ var mergeAlternately = function (word1, word2) {
         i++;
     }
     return merge.join('');
+    
 };
